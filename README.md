@@ -28,7 +28,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.1/lib:/usr/local/cuda
 
 (1) Clone the parboil benchmark:
 
-    git clone https://github.com/peiyi1/parboil_used_in_new_gpgpusim.git
+    git clone https://github.com/peiyi1/parboil_benchmark.git
     
 (2) Switch to branch v1:
 
