@@ -1,0 +1,1 @@
+/home/pli11/Videos/parboil_new_simulator/parboil/benchmarks/stencil/build/cuda_default/stencil -i /home/pli11/Videos/parboil_new_simulator/parboil/datasets/stencil/default/input/512x512x64x100.bin -o /home/pli11/Videos/parboil_new_simulator/parboil/benchmarks/stencil/run/default/512x512x64.out -- 512 512 64 100

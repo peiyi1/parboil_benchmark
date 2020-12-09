@@ -1,0 +1,1 @@
+/home/pli11/Videos/parboil_new_simulator/parboil/benchmarks/sad/build/cuda_default/sad -i /home/pli11/Videos/parboil_new_simulator/parboil/datasets/sad/default/input/reference.bin,/home/pli11/Videos/parboil_new_simulator/parboil/datasets/sad/default/input/frame.bin -o /home/pli11/Videos/parboil_new_simulator/parboil/benchmarks/sad/run/default/out.bin
