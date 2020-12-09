@@ -69,7 +69,9 @@ default: $(FAILSAFE) $(BUILDDIR) $(BIN)
 
 run:
 	@echo "Resolving CUDA runtime library..."
-	@$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(CUDA_LIB_PATH) ldd $(BIN) | grep cuda
+#	@$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(CUDA_LIB_PATH) ldd $(BIN) | grep cuda
+	@echo $(RUNTIME_ENV)
+	@echo $(BIN) $(ARGS)
 	@$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(CUDA_LIB_PATH) $(BIN) $(ARGS)
 
 debug:

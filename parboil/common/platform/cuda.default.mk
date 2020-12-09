@@ -10,14 +10,15 @@
 include $(PARBOIL_ROOT)/common/platform/c.default.mk
 
 # Paths
-CUDAHOME=/usr/local/cuda
+#CUDAHOME=/usr/local/cuda
 
 # Programs
 CUDACC=$(CUDAHOME)/bin/nvcc
 CUDALINK=$(CUDAHOME)/bin/nvcc
 
 # Flags
-PLATFORM_CUDACFLAGS=-O3
+HIGHEST_SM=70
+PLATFORM_CUDACFLAGS +=-gencode arch=compute_$(HIGHEST_SM),code=compute_$(HIGHEST_SM)
 PLATFORM_CUDALDFLAGS=-lm -lpthread
 
 
